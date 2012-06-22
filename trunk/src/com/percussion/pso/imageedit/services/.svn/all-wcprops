@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/services
+END
+ImageSizeTemplateExpander.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/services/ImageSizeTemplateExpander.java
+END
+AbstractTemplateExpanderAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/services/AbstractTemplateExpanderAdaptor.java
+END
+ImageSizeDefinitionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/services/ImageSizeDefinitionManager.java
+END
+ImageSizeDefinitionManagerLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/services/ImageSizeDefinitionManagerLocator.java
+END

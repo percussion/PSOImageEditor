@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSXContentEditor contentType="318" enableRelatedContent="yes" objectType="1" workflowId="4">
+  <PSXDataSet id="768">
+    <name>imedImage</name>
+    <description>default template</description>
+    <transactionType>none</transactionType>
+    <PSXContentEditorPipe id="0">
+      <name>cePipe</name>
+      <description>This is the ContentEditorLocaDef for Default ContentType</description>
+      <InputDataExits>
+        <PSXExtensionCallSet id="0">
+          <PSXExtensionCall id="10054">
+            <name>Java/global/percussion/generic/sys_FileInfo</name>
+          </PSXExtensionCall>
+        </PSXExtensionCallSet>
+      </InputDataExits>
+      <PSXContainerLocator>
+        <PSXTableSet>
+          <PSXTableLocator>
+            <PSXBackEndCredential id="0">
+              <alias>Cred1</alias>
+              <comment></comment>
+              <datasource></datasource>
+            </PSXBackEndCredential>
+          </PSXTableLocator>
+          <PSXTableRef alias="CT_IMEDIMAGE" name="CT_IMEDIMAGE"/>
+          <PSXTableRef alias="CT_IMEDIMAGE_SIZED" name="CT_IMEDIMAGE_SIZED"/>
+        </PSXTableSet>
+      </PSXContainerLocator>
+      <PSXContentEditorMapper>
+        <SystemFieldExcludes>
+          <FieldRef>sys_contentexpirydate</FieldRef>
+          <FieldRef>sys_contentstartdate</FieldRef>
+          <FieldRef>sys_pathname</FieldRef>
+          <FieldRef>sys_pubdate</FieldRef>
+          <FieldRef>sys_reminderdate</FieldRef>
+          <FieldRef>sys_suffix</FieldRef>
+        </SystemFieldExcludes>
+        <SharedFieldIncludes>
+          <SharedFieldGroupName>shared</SharedFieldGroupName>
+          <SharedFieldExcludes>
+            <FieldRef>body</FieldRef>
+            <FieldRef>callout</FieldRef>
+            <FieldRef>filename</FieldRef>
+            <FieldRef>keywords</FieldRef>
+            <FieldRef>webdavowner</FieldRef>
+          </SharedFieldExcludes>
+        </SharedFieldIncludes>
+        <PSXFieldSet name="CT_imedImage" repeatability="zeroOrMore" supportsSequencing="yes" type="parent" userSearchable="yes">
+          <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="alt" showInPreview="yes" showInSummary="yes" type="local">
+            <DataLocator>
+              <PSXBackEndColumn id="0">
+                <tableAlias>CT_IMEDIMAGE</tableAlias>
+                <column>ALT</column>
+                <columnAlias></columnAlias>
+              </PSXBackEndColumn>
+            </DataLocator>
+            <DataType>text</DataType>
+            <DataFormat>255</DataFormat>
+            <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+            <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+          </PSXField>
+          <PSXField forceBinary="no" mimetype="application/octet-stream" modificationType="user" name="img" showInPreview="yes" showInSummary="yes" type="local">
+            <DataLocator>
+              <PSXBackEndColumn id="0">
+                <tableAlias>CT_IMEDIMAGE</tableAlias>
+                <column>IMG</column>
+                <columnAlias></columnAlias>
+              </PSXBackEndColumn>
+            </DataLocator>
+            <DataType>binary</DataType>
+            <DataFormat>max</DataFormat>
+            <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+            <PSXPropertySet>
+              <PSXProperty locked="yes" name="cleanupBrokenInlineLinks">
+                <Value type="Boolean">no</Value>
+              </PSXProperty>
+              <PSXProperty locked="yes" name="mayHaveInlineLinks">
+                <Value type="Boolean">no</Value>
+              </PSXProperty>
+            </PSXPropertySet>
+            <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="no" visibleToGlobalQuery="yes"/>
+          </PSXField>
+          <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="img_ext" showInPreview="yes" showInSummary="no" type="local">
+            <DataLocator>
+              <PSXBackEndColumn id="0">
+                <tableAlias>CT_IMEDIMAGE</tableAlias>
+                <column>IMG_EXT</column>
+                <columnAlias></columnAlias>
+              </PSXBackEndColumn>
+            </DataLocator>
+            <DataType>text</DataType>
+            <DataFormat>50</DataFormat>
+            <DefaultValue>
+              <DataLocator>
+                <PSXTextLiteral id="0">
+                  <text></text>
+                </PSXTextLiteral>
+              </DataLocator>
+            </DefaultValue>
+            <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+            <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+          </PSXField>
+          <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="img_filename" showInPreview="yes" showInSummary="no" type="local">
+            <DataLocator>
+              <PSXBackEndColumn id="0">
+                <tableAlias>CT_IMEDIMAGE</tableAlias>
+                <column>IMG_FILENAME</column>
+                <columnAlias></columnAlias>
+              </PSXBackEndColumn>
+            </DataLocator>
+            <DataType>text</DataType>
+            <DataFormat>200</DataFormat>
+            <DefaultValue>
+              <DataLocator>
+                <PSXTextLiteral id="0">
+                  <text></text>
+                </PSXTextLiteral>
+              </DataLocator>
+            </DefaultValue>
+            <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+            <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+          </PSXField>
+          <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="img_height" showInPreview="yes" showInSummary="no" type="local">
+            <DataLocator>
+              <PSXBackEndColumn id="0">
+                <tableAlias>CT_IMEDIMAGE</tableAlias>
+                <column>IMG_HEIGHT</column>
+                <columnAlias></columnAlias>
+              </PSXBackEndColumn>
+            </DataLocator>
+            <DataType>text</DataType>
+            <DataFormat>50</DataFormat>
+            <DefaultValue>
+              <DataLocator>
+                <PSXTextLiteral id="0">
+                  <text></text>
+                </PSXTextLiteral>
+              </DataLocator>
+            </DefaultValue>
+            <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+            <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+          </PSXField>
+          <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="img_size" showInPreview="yes" showInSummary="no" type="local">
+            <DataLocator>
+              <PSXBackEndColumn id="0">
+                <tableAlias>CT_IMEDIMAGE</tableAlias>
+                <column>IMG_SIZE</column>
+                <columnAlias></columnAlias>
+              </PSXBackEndColumn>
+            </DataLocator>
+            <DataType>text</DataType>
+            <DataFormat>50</DataFormat>
+            <DefaultValue>
+              <DataLocator>
+                <PSXTextLiteral id="0">
+                  <text></text>
+                </PSXTextLiteral>
+              </DataLocator>
+            </DefaultValue>
+            <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+            <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+          </PSXField>
+          <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="img_type" showInPreview="yes" showInSummary="no" type="local">
+            <DataLocator>
+              <PSXBackEndColumn id="0">
+                <tableAlias>CT_IMEDIMAGE</tableAlias>
+                <column>IMG_TYPE</column>
+                <columnAlias></columnAlias>
+              </PSXBackEndColumn>
+            </DataLocator>
+            <DataType>text</DataType>
+            <DataFormat>100</DataFormat>
+            <DefaultValue>
+              <DataLocator>
+                <PSXTextLiteral id="0">
+                  <text></text>
+                </PSXTextLiteral>
+              </DataLocator>
+            </DefaultValue>
+            <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+            <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+          </PSXField>
+          <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="img_width" showInPreview="yes" showInSummary="no" type="local">
+            <DataLocator>
+              <PSXBackEndColumn id="0">
+                <tableAlias>CT_IMEDIMAGE</tableAlias>
+                <column>IMG_WIDTH</column>
+                <columnAlias></columnAlias>
+              </PSXBackEndColumn>
+            </DataLocator>
+            <DataType>text</DataType>
+            <DataFormat>50</DataFormat>
+            <DefaultValue>
+              <DataLocator>
+                <PSXTextLiteral id="0">
+                  <text></text>
+                </PSXTextLiteral>
+              </DataLocator>
+            </DefaultValue>
+            <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+            <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+          </PSXField>
+          <PSXFieldSet name="sized" repeatability="zeroOrMore" supportsSequencing="yes" type="complexChild" userSearchable="yes">
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="size_code" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZE_CODE</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <DefaultValue>
+                <DataLocator>
+                  <PSXTextLiteral id="0">
+                    <text></text>
+                  </PSXTextLiteral>
+                </DataLocator>
+              </DefaultValue>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXPropertySet>
+                <PSXProperty locked="no" name="allowActiveTags">
+                  <Value type="Boolean">no</Value>
+                </PSXProperty>
+                <PSXProperty locked="yes" name="cleanupBrokenInlineLinks">
+                  <Value type="Boolean">no</Value>
+                </PSXProperty>
+                <PSXProperty locked="no" name="cleanupNamespaces">
+                  <Value type="Boolean">no</Value>
+                </PSXProperty>
+                <PSXProperty locked="no" name="mayContainIDs">
+                  <Value type="Boolean">no</Value>
+                </PSXProperty>
+                <PSXProperty locked="yes" name="mayHaveInlineLinks">
+                  <Value type="Boolean">no</Value>
+                </PSXProperty>
+              </PSXPropertySet>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="no" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_cropbox_height" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_CROPBOX_HEIGHT</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_cropbox_width" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_CROPBOX_WIDTH</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_cropbox_x" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_CROPBOX_X</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_cropbox_y" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_CROPBOX_Y</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="application/octet-stream" modificationType="user" name="sized_img" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_IMG</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>binary</DataType>
+              <DataFormat>max</DataFormat>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXPropertySet>
+                <PSXProperty locked="yes" name="cleanupBrokenInlineLinks">
+                  <Value type="Boolean">no</Value>
+                </PSXProperty>
+                <PSXProperty locked="yes" name="mayHaveInlineLinks">
+                  <Value type="Boolean">no</Value>
+                </PSXProperty>
+              </PSXPropertySet>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="no" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_img_ext" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_IMG_EXT</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <DefaultValue>
+                <DataLocator>
+                  <PSXTextLiteral id="0">
+                    <text></text>
+                  </PSXTextLiteral>
+                </DataLocator>
+              </DefaultValue>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_img_filename" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_IMG_FILENAME</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>200</DataFormat>
+              <DefaultValue>
+                <DataLocator>
+                  <PSXTextLiteral id="0">
+                    <text></text>
+                  </PSXTextLiteral>
+                </DataLocator>
+              </DefaultValue>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_img_height" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_IMG_HEIGHT</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <DefaultValue>
+                <DataLocator>
+                  <PSXTextLiteral id="0">
+                    <text></text>
+                  </PSXTextLiteral>
+                </DataLocator>
+              </DefaultValue>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_img_size" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_IMG_SIZE</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <DefaultValue>
+                <DataLocator>
+                  <PSXTextLiteral id="0">
+                    <text></text>
+                  </PSXTextLiteral>
+                </DataLocator>
+              </DefaultValue>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_img_type" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_IMG_TYPE</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>200</DataFormat>
+              <DefaultValue>
+                <DataLocator>
+                  <PSXTextLiteral id="0">
+                    <text></text>
+                  </PSXTextLiteral>
+                </DataLocator>
+              </DefaultValue>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+            <PSXField forceBinary="no" mimetype="text/plain" modificationType="user" name="sized_img_width" showInPreview="yes" showInSummary="yes" type="local">
+              <DataLocator>
+                <PSXBackEndColumn id="0">
+                  <tableAlias>CT_IMEDIMAGE_SIZED</tableAlias>
+                  <column>SIZED_IMG_WIDTH</column>
+                  <columnAlias></columnAlias>
+                </PSXBackEndColumn>
+              </DataLocator>
+              <DataType>text</DataType>
+              <DataFormat>50</DataFormat>
+              <DefaultValue>
+                <DataLocator>
+                  <PSXTextLiteral id="0">
+                    <text></text>
+                  </PSXTextLiteral>
+                </DataLocator>
+              </DefaultValue>
+              <OccurrenceSettings delimiter=";" dimension="optional" multiValuedType="delimited"/>
+              <PSXSearchProperties enableTransformation="no" id="0" tokenizeSearchContent="no" userCustomizable="yes" userSearchable="yes" visibleToGlobalQuery="yes"/>
+            </PSXField>
+          </PSXFieldSet>
+        </PSXFieldSet>
+        <PSXUIDefinition>
+          <PSXDisplayMapper fieldSetRef="CT_imedImage" id="0">
+            <PSXDisplayMapping>
+              <FieldRef>sys_title</FieldRef>
+              <PSXUISet/>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>displaytitle</FieldRef>
+              <PSXUISet/>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>description</FieldRef>
+              <PSXUISet/>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>alt</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>Alt:</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10002" name="sys_EditBox">
+                  <PSXParam name="maxlength">
+                    <DataLocator>
+                      <PSXTextLiteral id="0">
+                        <text>200</text>
+                      </PSXTextLiteral>
+                    </DataLocator>
+                  </PSXParam>
+                </PSXControlRef>
+                <ErrorLabel>
+                  <PSXDisplayText>Alt:</PSXDisplayText>
+                </ErrorLabel>
+              </PSXUISet>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>img</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>Image:</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10004" name="sys_File"/>
+                <ErrorLabel>
+                  <PSXDisplayText>Image:</PSXDisplayText>
+                </ErrorLabel>
+              </PSXUISet>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>img_type</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>MIME type:</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10006" name="sys_EditBox">
+                  <PSXParam name="maxlength">
+                    <DataLocator>
+                      <PSXTextLiteral id="0">
+                        <text>100</text>
+                      </PSXTextLiteral>
+                    </DataLocator>
+                  </PSXParam>
+                </PSXControlRef>
+                <ErrorLabel>
+                  <PSXDisplayText>MIME type:</PSXDisplayText>
+                </ErrorLabel>
+                <ReadOnlyRules>
+                  <PSXRule boolean="and">
+                    <PSXConditional id="0">
+                      <variable>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </variable>
+                      <operator>=</operator>
+                      <value>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </value>
+                      <boolean>AND</boolean>
+                    </PSXConditional>
+                  </PSXRule>
+                </ReadOnlyRules>
+              </PSXUISet>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>img_filename</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>File Name:</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10007" name="sys_EditBox">
+                  <PSXParam name="maxlength">
+                    <DataLocator>
+                      <PSXTextLiteral id="0">
+                        <text>200</text>
+                      </PSXTextLiteral>
+                    </DataLocator>
+                  </PSXParam>
+                </PSXControlRef>
+                <ErrorLabel>
+                  <PSXDisplayText>FileName:</PSXDisplayText>
+                </ErrorLabel>
+                <ReadOnlyRules>
+                  <PSXRule boolean="and">
+                    <PSXConditional id="0">
+                      <variable>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </variable>
+                      <operator>=</operator>
+                      <value>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </value>
+                      <boolean>AND</boolean>
+                    </PSXConditional>
+                  </PSXRule>
+                </ReadOnlyRules>
+              </PSXUISet>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>img_ext</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>File Extension</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10009" name="sys_EditBox">
+                  <PSXParam name="maxlength">
+                    <DataLocator>
+                      <PSXTextLiteral id="0">
+                        <text>50</text>
+                      </PSXTextLiteral>
+                    </DataLocator>
+                  </PSXParam>
+                </PSXControlRef>
+                <ErrorLabel>
+                  <PSXDisplayText>File Extension</PSXDisplayText>
+                </ErrorLabel>
+                <ReadOnlyRules>
+                  <PSXRule boolean="and">
+                    <PSXConditional id="0">
+                      <variable>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </variable>
+                      <operator>=</operator>
+                      <value>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </value>
+                      <boolean>AND</boolean>
+                    </PSXConditional>
+                  </PSXRule>
+                </ReadOnlyRules>
+              </PSXUISet>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>img_size</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>File Size</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10008" name="sys_EditBox">
+                  <PSXParam name="maxlength">
+                    <DataLocator>
+                      <PSXTextLiteral id="0">
+                        <text>50</text>
+                      </PSXTextLiteral>
+                    </DataLocator>
+                  </PSXParam>
+                </PSXControlRef>
+                <ErrorLabel>
+                  <PSXDisplayText>File Size</PSXDisplayText>
+                </ErrorLabel>
+                <ReadOnlyRules>
+                  <PSXRule boolean="and">
+                    <PSXConditional id="0">
+                      <variable>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </variable>
+                      <operator>=</operator>
+                      <value>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </value>
+                      <boolean>AND</boolean>
+                    </PSXConditional>
+                  </PSXRule>
+                </ReadOnlyRules>
+              </PSXUISet>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>img_height</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>Image Height:</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10010" name="sys_EditBox">
+                  <PSXParam name="maxlength">
+                    <DataLocator>
+                      <PSXTextLiteral id="0">
+                        <text>50</text>
+                      </PSXTextLiteral>
+                    </DataLocator>
+                  </PSXParam>
+                </PSXControlRef>
+                <ErrorLabel>
+                  <PSXDisplayText>Image Height:</PSXDisplayText>
+                </ErrorLabel>
+                <ReadOnlyRules>
+                  <PSXRule boolean="and">
+                    <PSXConditional id="0">
+                      <variable>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </variable>
+                      <operator>=</operator>
+                      <value>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </value>
+                      <boolean>AND</boolean>
+                    </PSXConditional>
+                  </PSXRule>
+                </ReadOnlyRules>
+              </PSXUISet>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>img_width</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>Image Width:</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10011" name="sys_EditBox">
+                  <PSXParam name="maxlength">
+                    <DataLocator>
+                      <PSXTextLiteral id="0">
+                        <text>50</text>
+                      </PSXTextLiteral>
+                    </DataLocator>
+                  </PSXParam>
+                </PSXControlRef>
+                <ErrorLabel>
+                  <PSXDisplayText>Image Width:</PSXDisplayText>
+                </ErrorLabel>
+                <ReadOnlyRules>
+                  <PSXRule boolean="and">
+                    <PSXConditional id="0">
+                      <variable>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </variable>
+                      <operator>=</operator>
+                      <value>
+                        <PSXTextLiteral id="0">
+                          <text>1</text>
+                        </PSXTextLiteral>
+                      </value>
+                      <boolean>AND</boolean>
+                    </PSXConditional>
+                  </PSXRule>
+                </ReadOnlyRules>
+              </PSXUISet>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>sys_communityid</FieldRef>
+              <PSXUISet/>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>sys_lang</FieldRef>
+              <PSXUISet/>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>sys_currentview</FieldRef>
+              <PSXUISet/>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>sys_workflowid</FieldRef>
+              <PSXUISet/>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>sys_hibernateVersion</FieldRef>
+              <PSXUISet/>
+            </PSXDisplayMapping>
+            <PSXDisplayMapping>
+              <FieldRef>sized</FieldRef>
+              <PSXUISet>
+                <Label>
+                  <PSXDisplayText>Sized Image:</PSXDisplayText>
+                </Label>
+                <PSXControlRef id="10013" name="sys_Table"/>
+                <ErrorLabel>
+                  <PSXDisplayText>Sized Image:</PSXDisplayText>
+                </ErrorLabel>
+              </PSXUISet>
+              <PSXDisplayMapper fieldSetRef="sized" id="1">
+                <PSXDisplayMapping>
+                  <FieldRef>size_code</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Size Code:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10055" name="sys_DropDownSingle"/>
+                    <ErrorLabel>
+                      <PSXDisplayText>Size Code:</PSXDisplayText>
+                    </ErrorLabel>
+                    <PSXChoices sortOrder="ascending" type="internalLookup">
+                      <PSXUrlRequest>
+                        <Href>../imedLookup/ImageSizeLookup</Href>
+                        <Anchor></Anchor>
+                      </PSXUrlRequest>
+                    </PSXChoices>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_img</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Sized Image:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10018" name="sys_File"/>
+                    <ErrorLabel>
+                      <PSXDisplayText>Sized Image:</PSXDisplayText>
+                    </ErrorLabel>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_img_type</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>MIME Type:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10020" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>200</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>MIME Type:</PSXDisplayText>
+                    </ErrorLabel>
+                    <ReadOnlyRules>
+                      <PSXRule boolean="and">
+                        <PSXConditional id="0">
+                          <variable>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </variable>
+                          <operator>=</operator>
+                          <value>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </value>
+                          <boolean>AND</boolean>
+                        </PSXConditional>
+                      </PSXRule>
+                    </ReadOnlyRules>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_img_filename</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>File Name:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10021" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>200</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>File Name:</PSXDisplayText>
+                    </ErrorLabel>
+                    <ReadOnlyRules>
+                      <PSXRule boolean="and">
+                        <PSXConditional id="0">
+                          <variable>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </variable>
+                          <operator>=</operator>
+                          <value>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </value>
+                          <boolean>AND</boolean>
+                        </PSXConditional>
+                      </PSXRule>
+                    </ReadOnlyRules>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_img_ext</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>File Extension:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10022" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>50</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>File Extension:</PSXDisplayText>
+                    </ErrorLabel>
+                    <ReadOnlyRules>
+                      <PSXRule boolean="and">
+                        <PSXConditional id="0">
+                          <variable>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </variable>
+                          <operator>=</operator>
+                          <value>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </value>
+                          <boolean>AND</boolean>
+                        </PSXConditional>
+                      </PSXRule>
+                    </ReadOnlyRules>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_img_size</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Size:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10039" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>50</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>Size:</PSXDisplayText>
+                    </ErrorLabel>
+                    <ReadOnlyRules>
+                      <PSXRule boolean="and">
+                        <PSXConditional id="0">
+                          <variable>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </variable>
+                          <operator>=</operator>
+                          <value>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </value>
+                          <boolean>AND</boolean>
+                        </PSXConditional>
+                      </PSXRule>
+                    </ReadOnlyRules>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_img_height</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Image Height</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10023" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>50</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>Image Height</PSXDisplayText>
+                    </ErrorLabel>
+                    <ReadOnlyRules>
+                      <PSXRule boolean="and">
+                        <PSXConditional id="0">
+                          <variable>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </variable>
+                          <operator>=</operator>
+                          <value>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </value>
+                          <boolean>AND</boolean>
+                        </PSXConditional>
+                      </PSXRule>
+                    </ReadOnlyRules>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_img_width</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Image Width:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10024" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>50</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>Image Width:</PSXDisplayText>
+                    </ErrorLabel>
+                    <ReadOnlyRules>
+                      <PSXRule boolean="and">
+                        <PSXConditional id="0">
+                          <variable>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </variable>
+                          <operator>=</operator>
+                          <value>
+                            <PSXTextLiteral id="0">
+                              <text>1</text>
+                            </PSXTextLiteral>
+                          </value>
+                          <boolean>AND</boolean>
+                        </PSXConditional>
+                      </PSXRule>
+                    </ReadOnlyRules>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_cropbox_x</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Cropbox X:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10010" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>50</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>Cropbox X:</PSXDisplayText>
+                    </ErrorLabel>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_cropbox_y</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Cropbox Y:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10011" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>50</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>Cropbox Y:</PSXDisplayText>
+                    </ErrorLabel>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_cropbox_width</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Cropbox Width:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10012" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>50</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>Cropbox Width:</PSXDisplayText>
+                    </ErrorLabel>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+                <PSXDisplayMapping>
+                  <FieldRef>sized_cropbox_height</FieldRef>
+                  <PSXUISet>
+                    <Label>
+                      <PSXDisplayText>Cropbox Height:</PSXDisplayText>
+                    </Label>
+                    <PSXControlRef id="10013" name="sys_EditBox">
+                      <PSXParam name="maxlength">
+                        <DataLocator>
+                          <PSXTextLiteral id="0">
+                            <text>50</text>
+                          </PSXTextLiteral>
+                        </DataLocator>
+                      </PSXParam>
+                    </PSXControlRef>
+                    <ErrorLabel>
+                      <PSXDisplayText>Cropbox Height:</PSXDisplayText>
+                    </ErrorLabel>
+                  </PSXUISet>
+                </PSXDisplayMapping>
+              </PSXDisplayMapper>
+            </PSXDisplayMapping>
+          </PSXDisplayMapper>
+        </PSXUIDefinition>
+      </PSXContentEditorMapper>
+      <userProperties>
+        <userProperty name="Control10004_Dependency10054">sys_FileInfo</userProperty>
+        <userProperty name="Control10018_DependencyIds">10054</userProperty>
+        <userProperty name="Control10018_Dependency10054">sys_FileInfo</userProperty>
+        <userProperty name="Control10004_DependencyIds">10054</userProperty>
+      </userProperties>
+    </PSXContentEditorPipe>
+    <PSXRequestor directDataStream="no" id="0">
+      <requestPage>imedImage</requestPage>
+      <SelectionParams/>
+      <ValidationRules/>
+      <characterEncoding>UTF-8</characterEncoding>
+      <MimeProperties>
+        <html>
+          <PSXTextLiteral id="0">
+            <text>text/html</text>
+          </PSXTextLiteral>
+        </html>
+        <htm>
+          <PSXTextLiteral id="0">
+            <text>text/html</text>
+          </PSXTextLiteral>
+        </htm>
+      </MimeProperties>
+    </PSXRequestor>
+  </PSXDataSet>
+  <PSXValidationRules maxErrorsToStop="10"/>
+  <PSXInputTranslations>
+    <PSXConditionalExit maxErrorsToStop="10">
+      <PSXExtensionCallSet id="0">
+        <PSXExtensionCall id="0">
+          <name>Java/global/percussion/exit/sys_imageInfoExtractor</name>
+        </PSXExtensionCall>
+      </PSXExtensionCallSet>
+    </PSXConditionalExit>
+  </PSXInputTranslations>
+  <PSXOutputTranslations/>
+  <PSXWorkflowInfo type="inclusionary" values="4"/>
+</PSXContentEditor>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/psolib/!svn/ver/3834/PSOImageEditor/tags/beta4/test/test/percussion/pso/imageedit/web
+END
+ImageUrlBuilderImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/psolib/!svn/ver/3834/PSOImageEditor/tags/beta4/test/test/percussion/pso/imageedit/web/ImageUrlBuilderImplTest.java
+END
+ImageResizeManagerImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/psolib/!svn/ver/3834/PSOImageEditor/tags/beta4/test/test/percussion/pso/imageedit/web/ImageResizeManagerImplTest.java
+END
+ImageSizeDefinitionLookupControllerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/psolib/!svn/ver/3834/PSOImageEditor/tags/beta4/test/test/percussion/pso/imageedit/web/ImageSizeDefinitionLookupControllerTest.java
+END
+SimpleXmlViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/psolib/!svn/ver/3834/PSOImageEditor/tags/beta4/test/test/percussion/pso/imageedit/web/SimpleXmlViewTest.java
+END
+ImageEditorWizardTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/psolib/!svn/ver/3834/PSOImageEditor/tags/beta4/test/test/percussion/pso/imageedit/web/ImageEditorWizardTest.java
+END
+BinaryImageControllerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/psolib/!svn/ver/3834/PSOImageEditor/tags/beta4/test/test/percussion/pso/imageedit/web/BinaryImageControllerTest.java
+END

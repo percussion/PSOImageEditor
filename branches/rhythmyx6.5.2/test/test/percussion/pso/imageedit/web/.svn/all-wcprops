@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/psolib/!svn/ver/4230/PSOImageEditor/branches/rhythmyx6.5.2/test/test/percussion/pso/imageedit/web
+END
+SimpleXmlViewTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/test/test/percussion/pso/imageedit/web/SimpleXmlViewTest.java
+END
+ImageEditorWizardTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/test/test/percussion/pso/imageedit/web/ImageEditorWizardTest.java
+END
+BinaryImageControllerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/test/test/percussion/pso/imageedit/web/BinaryImageControllerTest.java
+END
+ImageUrlBuilderImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/test/test/percussion/pso/imageedit/web/ImageUrlBuilderImplTest.java
+END
+ImageResizeManagerImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/psolib/!svn/ver/4230/PSOImageEditor/branches/rhythmyx6.5.2/test/test/percussion/pso/imageedit/web/ImageResizeManagerImplTest.java
+END
+ImageSizeDefinitionLookupControllerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/test/test/percussion/pso/imageedit/web/ImageSizeDefinitionLookupControllerTest.java
+END

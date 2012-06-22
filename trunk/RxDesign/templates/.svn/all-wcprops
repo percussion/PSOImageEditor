@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/psolib/!svn/ver/3675/PSOImageEditor/trunk/RxDesign/templates
+END
+imedBnMidsize.template
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/psolib/!svn/ver/3675/PSOImageEditor/trunk/RxDesign/templates/imedBnMidsize.template
+END
+imedSnMidsize.template
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/psolib/!svn/ver/3675/PSOImageEditor/trunk/RxDesign/templates/imedSnMidsize.template
+END
+imedSnCommon.template
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/psolib/!svn/ver/3617/PSOImageEditor/trunk/RxDesign/templates/imedSnCommon.template
+END
+imedBnMaster.template
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/psolib/!svn/ver/3287/PSOImageEditor/trunk/RxDesign/templates/imedBnMaster.template
+END
+imedBnThumb.template
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/psolib/!svn/ver/3675/PSOImageEditor/trunk/RxDesign/templates/imedBnThumb.template
+END
+imedSnThumb.template
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/psolib/!svn/ver/3675/PSOImageEditor/trunk/RxDesign/templates/imedSnThumb.template
+END

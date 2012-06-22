@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/WEB-INF/addins/PSOImageEditor/pages
+END
+include.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/WEB-INF/addins/PSOImageEditor/pages/include.jsp
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/WEB-INF/addins/PSOImageEditor/pages/main.jsp
+END
+image_editor.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/WEB-INF/addins/PSOImageEditor/pages/image_editor.jsp
+END
+testpage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/WEB-INF/addins/PSOImageEditor/pages/testpage.jsp
+END
+confirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/WEB-INF/addins/PSOImageEditor/pages/confirm.jsp
+END
+sizeimage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/WEB-INF/addins/PSOImageEditor/pages/sizeimage.jsp
+END
+results.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/WEB-INF/addins/PSOImageEditor/pages/results.jsp
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/psolib/!svn/ver/4231/PSOImageEditor/branches/rhythmyx6.5.2
+END
+build.number
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/psolib/!svn/ver/4231/PSOImageEditor/branches/rhythmyx6.5.2/build.number
+END
+ivy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/ivy.xml
+END
+ivysettings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/ivysettings.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/log4j.properties
+END
+ivy-local.sample.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/ivy-local.sample.properties
+END
+deploy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/deploy.xml
+END
+sample-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/sample-web.xml
+END
+install.bat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/install.bat
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/readme.txt
+END
+PSOImageEditor.zip
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/psolib/!svn/ver/4231/PSOImageEditor/branches/rhythmyx6.5.2/PSOImageEditor.zip
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/build.xml
+END
+Extensions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/Extensions.xml
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/license.txt
+END
+addProp.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/psolib/!svn/ver/4019/PSOImageEditor/branches/rhythmyx6.5.2/addProp.xslt
+END

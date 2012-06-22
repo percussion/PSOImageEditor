@@ -1,0 +1,44 @@
+  <assemblytemplate id="1">
+    <guid>0-4-557</guid>
+    <active-assembly-type>Normal</active-assembly-type>
+    <assembler>Java/global/percussion/assembly/binaryAssembler</assembler>
+    <assembly-url>../assembler/render</assembly-url>
+    <bindings>
+      <binding id="2">
+        <execution-order>1</execution-order>
+        <expression>$sys.item.getProperty("img") </expression>
+        <id>0</id>
+        <jexl-script id="3">
+          <text>$sys.item.getProperty("img");</text>
+        </jexl-script>
+        <variable>$sys.binary</variable>
+      </binding>
+      <binding id="4">
+        <execution-order>2</execution-order>
+        <expression>$sys.item.getProperty("img_type").String </expression>
+        <id>0</id>
+        <jexl-script id="5">
+          <text>$sys.item.getProperty("img_type").String;</text>
+        </jexl-script>
+        <variable>$sys.mimetype</variable>
+      </binding>
+    </bindings>
+    <charset/>
+    <content-ids/>
+    <description>Binary Template for master image</description>
+    <global-template/>
+    <global-template-usage>None</global-template-usage>
+    <label>B - Master</label>
+    <location-prefix/>
+    <location-suffix/>
+    <mime-type/>
+    <name>imedBnMaster</name>
+    <output-format>Binary</output-format>
+    <publish-when>Default</publish-when>
+    <site-ids/>
+    <style-sheet-path/>
+    <template/>
+    <template-slot-ids/>
+    <template-type>Local</template-type>
+    <variant>false</variant>
+  </assemblytemplate>

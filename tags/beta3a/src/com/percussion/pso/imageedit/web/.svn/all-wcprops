@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/src/com/percussion/pso/imageedit/web
+END
+ImageEditorWizard.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/src/com/percussion/pso/imageedit/web/ImageEditorWizard.java
+END
+BinaryImageController.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/src/com/percussion/pso/imageedit/web/BinaryImageController.java
+END
+ImageUrlBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/src/com/percussion/pso/imageedit/web/ImageUrlBuilder.java
+END
+ImageResizeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/src/com/percussion/pso/imageedit/web/ImageResizeManager.java
+END
+ImagePersistenceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/src/com/percussion/pso/imageedit/web/ImagePersistenceManager.java
+END
+ImageSizeDefinitionLookupController.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/src/com/percussion/pso/imageedit/web/ImageSizeDefinitionLookupController.java
+END
+SimpleXmlView.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/psolib/!svn/ver/3829/PSOImageEditor/tags/beta3a/src/com/percussion/pso/imageedit/web/SimpleXmlView.java
+END

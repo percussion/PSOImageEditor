@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data
+END
+ImageSizeDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/ImageSizeDefinition.java
+END
+AbstractImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/AbstractImageMetaData.java
+END
+ImageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/ImageBean.java
+END
+ImageEditorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/ImageEditorException.java
+END
+ImageData.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/ImageData.java
+END
+UserSessionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/UserSessionData.java
+END
+ByteArrayDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/ByteArrayDataSource.java
+END
+SimpleImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/SimpleImageMetaData.java
+END
+MasterImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/MasterImageMetaData.java
+END
+SizedImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/SizedImageMetaData.java
+END
+ImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/ImageMetaData.java
+END
+OpenImageResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/psolib/!svn/ver/5257/PSOImageEditor/trunk/src/com/percussion/pso/imageedit/data/OpenImageResult.java
+END

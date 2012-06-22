@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/web/impl
+END
+ImagePersistenceManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/web/impl/ImagePersistenceManagerImpl.java
+END
+ImageEditorTestPageController.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/web/impl/ImageEditorTestPageController.java
+END
+ImageItemSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/web/impl/ImageItemSupport.java
+END
+ImageUrlBuilderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/web/impl/ImageUrlBuilderImpl.java
+END
+ImageResizeManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/web/impl/ImageResizeManagerImpl.java
+END

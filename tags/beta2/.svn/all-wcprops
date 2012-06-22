@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2
+END
+ivysettings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/ivysettings.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/log4j.properties
+END
+ivy-local.sample.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/ivy-local.sample.properties
+END
+deploy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/deploy.xml
+END
+sample-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/sample-web.xml
+END
+install.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/install.bat
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/readme.txt
+END
+PSOImageEditor.zip
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/PSOImageEditor.zip
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/build.xml
+END
+Extensions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/Extensions.xml
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/license.txt
+END
+addProp.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/addProp.xslt
+END
+build.number
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/build.number
+END
+ivy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/psolib/!svn/ver/3676/PSOImageEditor/tags/beta2/ivy.xml
+END

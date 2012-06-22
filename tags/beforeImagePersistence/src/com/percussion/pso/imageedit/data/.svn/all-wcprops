@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data
+END
+AbstractImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/AbstractImageMetaData.java
+END
+ImageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/ImageBean.java
+END
+ImageEditorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/ImageEditorException.java
+END
+ImageData.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/ImageData.java
+END
+UserSessionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/UserSessionData.java
+END
+ByteArrayDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/ByteArrayDataSource.java
+END
+SimpleImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/SimpleImageMetaData.java
+END
+MasterImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/MasterImageMetaData.java
+END
+SizedImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/SizedImageMetaData.java
+END
+ImageMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/ImageMetaData.java
+END
+OpenImageResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/OpenImageResult.java
+END
+ImageSizeDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/psolib/!svn/ver/3666/PSOImageEditor/tags/beforeImagePersistence/src/com/percussion/pso/imageedit/data/ImageSizeDefinition.java
+END

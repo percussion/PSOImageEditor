@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 67
+ivy-local.properties
+PSOImageEditorTest.zip
+ivylib
+bin
+apidoc
+
+END
