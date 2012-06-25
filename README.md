@@ -1,5 +1,6 @@
 PSOImageEditor
 ==============
+[Percussion Software](http://www.percussion.com "Percussion Software")
 
 This is the PSOImageEditor Project for Rhythmyx 6.6  
 
