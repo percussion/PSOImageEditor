@@ -37,3 +37,25 @@ both rx/lib and rxapp.war/WEB-INF/lib when they are needed during server start.
 
 All of these JAR files can be found lib folder in the zip file. 
 
+
+--------------------------------------------------
+Setting up a Development Environment with Eclipse
+--------------------------------------------------
+
+1.) Download, extract, and install Apache Ant
+2.) Add ANT_HOME environment variable pointed at your ant directory
+3.) Append ANT_HOME\bin to your PATH 
+4.) Download  & extract Apache IVY (with dependencies)
+5.) In your HOME directory create a .ant/lib folder. e.g. CD %HOME%;mkdir -p .ant\lib
+6.) Add IVY_HOME environment variable pointed to where Ivy was extracted.
+7.) Copy IVY_HOME/*.jar and IVY_HOME/lib/*.jar to your HOME/.ant/lib directory
+8.) Import the project from GitHub
+9.) Select the trunk project if prompted with multiple versions of the same project. (these were migrated from subversion)
+10.) Once imported copy ivy-local.sample.properties to ivy-local.properties
+11.) Right click on build.xml and Select Run As-> Ant Build ...
+12.) Select the ivy:retrieve option followed by the dist option. 
+13.) Verify that the task order is the correct (ivy first) and click ok. 
+14.) This should download all the required dependencies and run the build.
+14.) Refresh your Eclipse project when the build completes.
+
+
