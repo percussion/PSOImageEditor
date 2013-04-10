@@ -2,7 +2,9 @@ PSOImageEditor
 ==============
 [Percussion Software](http://www.percussion.com "Percussion Software")
 
-This is the PSOImageEditor Project for Rhythmyx 6.6  
+This is the PSOImageEditor Project for Rhythmyx 6.6 or greater. 
+
+See the Wiki for an [overview](https://github.com/percussion/PSOImageEditor/wiki). 
 
 The image editor allows for uploading, cropping, resizing and storing of multiple
     sizes of a single image. 
