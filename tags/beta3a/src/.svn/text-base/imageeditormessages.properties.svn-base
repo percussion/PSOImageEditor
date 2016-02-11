@@ -1,3 +1,0 @@
-#defines the error messages for the image editor.
-title.not.unique=system title {0} is not unique in the folder.
-blank.field.not.allowed=field {0} must not be blank. 
