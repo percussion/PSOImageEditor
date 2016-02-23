@@ -1,0 +1,10 @@
+/ivylib/
+/ivy-local.properties
+/.settings/
+/apidoc/
+/bin/
+/.classpath
+/.project
+/build.number
+/pso.log
+/PSOImageEditor.zip

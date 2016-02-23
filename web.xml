@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:j2ee="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+<?xml version="1.0" encoding="UTF-8"?><web-app xmlns:j2ee="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
 <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>/WEB-INF/servicesContext*.xml</param-value>
@@ -78,6 +77,10 @@
       <filter-name>RhythmyxWebDavRedirector</filter-name>
       <filter-class>com.percussion.webdav.PSWebDavRequestFilter</filter-class>
    </filter>
+<filter>  
+ 	  <filter-name>PSIECompatibleFilter</filter-name>  
+ 	  <filter-class>com.percussion.servlets.PSIECompatibleFilter</filter-class>  
+  </filter>
 <filter>
      <filter-name>trinidad</filter-name>
      <filter-class>org.apache.myfaces.trinidad.webapp.TrinidadFilter</filter-class>
@@ -105,6 +108,10 @@
       <filter-name>ExtensionsFilter</filter-name>
       <servlet-name>Faces Servlet</servlet-name>
    </filter-mapping>
+<filter-mapping>  
+	   <filter-name>PSIECompatibleFilter</filter-name>  
+ 	  <servlet-name>Faces Servlet</servlet-name>  
+  </filter-mapping>
 <filter-mapping>
      <filter-name>trinidad</filter-name>
      <servlet-name>Faces Servlet</servlet-name>
@@ -158,11 +165,12 @@
       <servlet-class>org.apache.cactus.server.ServletTestRedirector</servlet-class>
    </servlet>
 <servlet>
-      <servlet-name>RhythmyxServlet</servlet-name>
+      <!--servlet-name>RhythmyxServlet</servlet-name-->
+      <servlet-name>Z</servlet-name>
       <servlet-class>com.percussion.servlets.PSAppServlet</servlet-class>
       <init-param>
          <param-name>rxDir</param-name>
-         <param-value>C:\Rhythmyx</param-value>
+         <param-value>C:\DevEnv\Installs\cmsystem\Rhythmyx7.3.1</param-value>
       </init-param>
       <init-param>
          <param-name>jndiPrefix</param-name>
@@ -235,6 +243,14 @@
       </init-param>
     </servlet>
 <servlet>
+        <servlet-name>TaxonomyDispatcher</servlet-name>
+        <servlet-class>com.percussion.servlets.PSDispatcherServlet</servlet-class>
+        <init-param>
+         <param-name>contextConfigLocation</param-name>
+         <param-value>/WEB-INF/config/spring/taxonomy-servlet.xml</param-value>
+      </init-param>
+    </servlet>
+<servlet>
 <servlet-name>PSOImageEditor</servlet-name>
 <servlet-class>com.percussion.servlets.PSDispatcherServlet</servlet-class>
 <init-param>
@@ -247,7 +263,8 @@
 		<url-pattern>/services/*</url-pattern>
 	</servlet-mapping>
 <servlet-mapping>
-      <servlet-name>RhythmyxServlet</servlet-name>
+      <!--servlet-name>RhythmyxServlet</servlet-name-->
+      <servlet-name>Z</servlet-name>
       <url-pattern>/</url-pattern>
    </servlet-mapping>
 <servlet-mapping>
@@ -305,6 +322,10 @@
 <servlet-mapping>
         <servlet-name>LinkbackDispatcher</servlet-name>
         <url-pattern>/linkback/*</url-pattern>
+    </servlet-mapping>
+<servlet-mapping>
+        <servlet-name>TaxonomyDispatcher</servlet-name>
+        <url-pattern>/taxonomy/*</url-pattern>
     </servlet-mapping>
 <servlet-mapping>
       <servlet-name>AxisServlet</servlet-name>
