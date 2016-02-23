@@ -45,7 +45,7 @@ public class ImageResizeManagerImpl implements ImageResizeManager
    private String imageFormat = "jpeg";
    private String extension = "jpg"; 
    private String contentType = "image/jpeg"; 
-   private float compression = 0.85f;
+   private float compression = 1.0f;
    
    /**
     * Controls the size of steps by which the image is rescaled. 
