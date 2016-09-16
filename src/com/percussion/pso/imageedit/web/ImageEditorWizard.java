@@ -62,8 +62,8 @@ public class ImageEditorWizard extends AbstractWizardFormController
 	private ImageUrlBuilder urlBuilder = null;
 	private ImagePersistenceManager imagePersistenceManager = null;
 	
-	private int maxDisplayHeight = 600;
-	private int maxDisplayWidth = 800; 
+	private int maxDisplayHeight = 1500;
+	private int maxDisplayWidth = 2000; 
 	
 	
 	public ImageEditorWizard()
