@@ -11,6 +11,20 @@ The image editor allows for uploading, cropping, resizing and storing of multipl
 
 THIS VERSION REQUIRES RHYTHMYX 6.6 OR LATER 
 
+Use the following links to download the PSOImageEditor:
+
+Release
+
+http://cdn.percussion.com/downloads/open/psoimageeditor/PSOImageEditor.zip
+
+Nightly Developemnt
+
+http://cdn.percussion.com/downloads/open/psoimageeditor/pso-image-editor-development.zip
+
+Nightly Snapshot
+
+http://cdn.percussion.com/downloads/open/psoimageeditor/pso-image-editor-SNAPSHOT.zip
+
 
 To deploy the toolkit, unzip the distribution into an empty directory. 
 
