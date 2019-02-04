@@ -90,6 +90,6 @@
 						<p>No main image was uploaded.</p>
 			    </c:otherwise>
 			    </c:choose>
-	  </div>
+	  </div></div>
 	</body>
 </html>
