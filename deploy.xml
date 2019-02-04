@@ -1,6 +1,6 @@
 <project name="PSO Image Editor Deploy" default="dist" basedir=".">
 	<description>
-       Install extensions on a Rhythmyx 6 server  
+       Install extensions on a Percussion server
 	   The RHYTHMYX_HOME environment variable must be set 
     </description>
 	<property environment="env"/>
@@ -26,9 +26,6 @@
 			<fileset dir="${basedir}">
 				<include name="**.jar" />
 			</fileset>
-		</copy>
-		<copy todir="${rx.lib}">
-			<fileset dir="${lib}" includes="ehcache*.jar backport-util-concurrent.jar jsr107cache*.jar" />
 		</copy>
     </target>
 	
