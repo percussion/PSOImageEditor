@@ -9,9 +9,13 @@
 	<property name="rhythmyx.WEB-INF" value="${rhythmyx.home}/AppServer/server/rx/deploy/rxapp.ear/rxapp.war/WEB-INF"/>
 	<property name="rhythmyx.rx_resources" value="${rhythmyx.home}/rx_resources" />
 	<property name="rhythmyx.lib" value="${rhythmyx.WEB-INF}/lib"/>
-	
  	<property name="rhythmyx.spring" value="${rhythmyx.WEB-INF}/config/user/spring" />
-	<property name="rx.lib" value="${rhythmyx.home}/AppServer/server/rx/lib" /> 
+	<property name="rx.lib" value="${rhythmyx.home}/AppServer/server/rx/lib" />
+	<!-- Jetty Properties -->
+	<property name="jetty.home" value="${rhythmyx.home}/jetty"/>
+	<property name="jetty.base" value="${rhythmyx.home}/jetty/base"/>
+	<property name="jetty.webapp" value="${rhythmyx.home}/jetty/base/webapps/Rhythmyx"/>
+
 	<property name="stylesheet" location="addProp.xslt" /> 
 	<!-- relative paths -->
 	<property name="lib" location="${basedir}/lib"/>
@@ -27,12 +31,23 @@
 				<include name="**.jar" />
 			</fileset>
 		</copy>
+		<copy todir="${jetty.webapp}/WEB-INF/lib" overwrite="true" verbose="true">
+			<fileset dir="${lib}">
+				<include name="**.jar" />
+			</fileset>
+			<fileset dir="${basedir}">
+				<include name="**.jar" />
+			</fileset>
+		</copy>
     </target>
 	
 	<target name="WEB-INF" description="Copy any configuration files to the Web App" >
 		<fail unless="env.RHYTHMYX_HOME" message="You must set the RHYTHMYX_HOME environment variable"/>
 		<copy todir="${rhythmyx.WEB-INF}" overwrite="true" verbose="true">
 		   <fileset dir="WEB-INF" /> 
+		</copy>
+		<copy todir="${jetty.webapp}/WEB-INF" overwrite="true" verbose="true">
+			<fileset dir="WEB-INF" />
 		</copy>
 	</target>
 	
@@ -66,8 +81,15 @@
 				    <include name="xml-apis.jar" />
 			    </fileset>
 				<fileset dir="${rhythmyx.home}/AppServer/server/rx/lib">
-					<include name="javax.servlet.jar" /> 
-		    	</fileset>				
+					<include name="javax.servlet.jar" />
+					<include name="log4j.jar" />
+					<include name="commons-jexl*.jar" />
+					<include name="commons-lang*.jar"/>
+					<include name="jcr*.jar" />
+					<include name="commons-logging*.jar" />
+					<include name="commons-collections*.jar" />
+					<include name="commons-httpclient*.jar" />
+				</fileset>
 			</classpath>	
 		</java>
 	</target>
@@ -84,6 +106,17 @@
 				<copy file="web.xml" todir="${rhythmyx.WEB-INF}"/>
 				<!-- delete file="web.xml"/ -->
 				<echo>Updated web.xml</echo>
+
+			<echo>Transforming jetty web.xml</echo>
+			<copy file="${jetty.webapp}/WEB-INF/web.xml" todir=""/>
+			<xslt in="web.xml" style="${stylesheet}" out="Output.xml" force="yes" />
+			<!-- echo>Deleted extraneous files</echo -->
+			<!-- delete file="${stylesheet}"/ -->
+			<move file="Output.xml" tofile="web.xml" />
+			<copy file="web.xml" todir="${jetty.webapp}/WEB-INF/"/>
+			<!-- delete file="web.xml"/ -->
+			<echo>Updated jetty web.xml</echo>
+
 		</target>
 		
 	
