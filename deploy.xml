@@ -14,7 +14,7 @@
 	<property name="rx.lib" value="${rhythmyx.home}/AppServer/server/rx/lib" /> 
 	<property name="stylesheet" location="addProp.xslt" /> 
 	<!-- relative paths -->
-	<property name="lib" location="lib"/>
+	<property name="lib" location="${basedir}/lib"/>
 	
 
 	<target name="jarcopy" description="copy the jar files from the lib folder" >
