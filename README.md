@@ -11,17 +11,9 @@ The image editor allows for uploading, cropping, resizing and storing of multipl
 
 Use the following links to download the PSOImageEditor:
 
-Release
+Release Snapshot
 
-http://cdn.percussion.com/downloads/open/psoimageeditor/PSOImageEditor.zip
-
-Nightly Developemnt
-
-http://cdn.percussion.com/downloads/open/psoimageeditor/pso-image-editor-development.zip
-
-Nightly Snapshot
-
-http://cdn.percussion.com/downloads/open/psoimageeditor/pso-image-editor-SNAPSHOT.zip
+http://cdn.percussion.com/downloads/open/psoimageeditor/pso-image-editor-7.3.2-SNAPSHOT-distribution.zip 
 
 
 To deploy the toolkit, unzip the distribution into an empty directory. 
@@ -40,5 +32,10 @@ ant -f deploy.xml
 
 To run the build you need Apache Maven.
 
+git clone <project Url>
+
+cd PSOImageEditor
+
 mvn clean install
+    
 
