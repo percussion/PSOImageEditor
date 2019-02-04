@@ -8,5 +8,6 @@
 /build.number
 /pso.log
 /PSOImageEditor.zip
-/.idea
+/.idea/*
 /halfimage.jpg
+._.DS_Store
