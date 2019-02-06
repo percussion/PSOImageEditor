@@ -118,11 +118,30 @@
 			<echo>Updated jetty web.xml</echo>
 
 		</target>
-		
+
+
+    <!-- Remove Prior Versions -->
+    <target name="uninstall">
+			<echo message="Uninstalling previous version..."/>
+			<delete casesensitive="false" failonerror="false" verbose="true">
+				<fileset>
+					<filename name="${rhythmyx.home}/AppServer/server/rx/rxapp.ear/rxapp.war/WEB-INF/lib/pso-image-editor*.jar"/>
+					<filename name="${jetty.webapp}/WEB-INF/lib/pso-image-editor*.jar"/>
+				</fileset>
+			</delete>
+	</target>
+	<!--
+
+    pso-image-editor-1.0.jar
+
+
+
+    -->
 	
 	<target name="dist">
 		<fail unless="env.RHYTHMYX_HOME" message="You must set the RHYTHMYX_HOME environment variable"/>
 		<echo>Installing Extensions to ${rhythmyx.home}</echo>
+		<antcall target="uninstall"/>
 		<antcall target="jarcopy"/>
 		<antcall target="WEB-INF" />
 		<antcall target="rx_resources" /> 
