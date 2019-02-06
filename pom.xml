@@ -14,7 +14,7 @@
             <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
             <build.profile.id>dev</build.profile.id>
-            <spring.version>[4.3.17,)</spring.version>
+            <spring.version>3.2.13.RELEASE</spring.version>
             <cxf.version>3.2.7</cxf.version>
             <servlet.spec>3.1.0</servlet.spec>
             <hibernate.version>5.1.14.Final</hibernate.version>
@@ -331,14 +331,14 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>RELEASE</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.jmock</groupId>
             <artifactId>jmock</artifactId>
-            <version>RELEASE</version>
+            <version>2.10.0-RC3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
