@@ -16,6 +16,11 @@ Use the following links to download the PSOImageEditor:
 
 https://github.com/percussion/PSOImageEditor/releases
 
+**Pre-Requisites**
+The PSO Toolkit must be installed proper to installing the PSO Image Editor.
+
+https://github.com/percussion/PSOToolkit/releases
+
 **Installation**
 
 Stop the Rhythmyx instance.
