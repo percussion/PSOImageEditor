@@ -390,7 +390,7 @@
     <repositories>
         <repository>
             <id>perc-java-repo</id>
-            <url>http://repo-man.cloud.percussion.com:8081/nexus/content/groups/public</url>
+            <url>http://mvn.percussion.com/nexus/content/groups/public</url>
             <snapshots>
                 <enabled>false</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -401,7 +401,7 @@
         <pluginRepository>
             <id>perc-java-repo</id>
             <name>Perc Plugin Repository</name>
-            <url>http://repo-man.cloud.percussion.com:8081/nexus/content/groups/public</url>
+            <url>http://mvn.percussion.com/nexus/content/groups/public</url>
             <layout>default</layout>
             <snapshots>
                 <enabled>false</enabled>
