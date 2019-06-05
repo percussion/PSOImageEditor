@@ -1,5 +1,6 @@
 PSOImageEditor
 ==============
+
 [Percussion Software](http://www.percussion.com "Percussion Software")
 
 This is the PSOImageEditor Project for Percussion CMS. 
@@ -33,6 +34,7 @@ After installation, start the Rhythmyx service and use the Multi Server Manager 
 Additional documentation can be found in the docs folder.
 
 **Configuring MSM to avoid strict Version checking**
+
 The MSM tool uses strict version checking when installing pda archives by default. 
 This can cause problems as patch levels are increased.  To allow build version mismatches between the archive and the server, edit the RhythmyxMultiServerManager.lax
 
@@ -43,6 +45,7 @@ lax.nl.java.option.additional=-Xmx256m -Dcom.percussion.deploy.allowBuildMismatc
 Save the file and relaunch MSM.  You should now be able to install archives even if the archive does not exactly match your Rhythmyx server version.
 
 **Developer Setup**
+
 To run the build you need Apache Maven.
 
 git clone <project Url>
