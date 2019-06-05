@@ -22,6 +22,11 @@
             <directory>${project.basedir}/src/main/webapp/WEB-INF</directory>
             <outputDirectory>/WEB-INF</outputDirectory>
         </fileSet>
+        <!-- MSM Archive -->
+        <fileSet>
+            <directory>${project.basedir}/RxDesign/msm</directory>
+            <outputDirectory>/msm</outputDirectory>
+        </fileSet>
     </fileSets>
     <files>
         <file>
