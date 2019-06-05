@@ -15,19 +15,20 @@ Release Snapshot
 
 http://cdn.percussion.com/downloads/open/psoimageeditor/pso-image-editor-7.3.2-SNAPSHOT-distribution.zip 
 
+Stop the Rhythmyx instance.
 
-To deploy the toolkit, unzip the distribution into an empty directory. 
+Unzip the distribution to your Rhythmyx/Patch folder.
 
-You must have Java 1.5 and Apache Ant properly installed. 
+Run install.bat or install.sh supplying the path to the Rhythmyx installation.
 
-The RHYTHMYX_HOME environment variable must point at your 
-Rhythmyx 6.6 installation.  
+For example:
 
-Type the command: 
+cd C:\Rhythmyx\Patch\psoimageeditor
+install.bat c:\Rhythmyx
 
-ant -f deploy.xml 
+After installation, start the Rhythmyx service and use the Multi Server Manager tool to install the imedComponents.pda archive located in the msm folder.
 
-
+Additional documentation can be found in the docs folder.
 ==Developer Setup==
 
 To run the build you need Apache Maven.
