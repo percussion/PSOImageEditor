@@ -52,19 +52,22 @@ http://www.springframework.org/schema/aop http://www.springframework.org/schema/
  
    
    <!-- Cache beans used for image cache -->
-   <bean id="cacheManager"
-   	class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean" name="imageCacheManager"/>
+   <bean id="imageEditorCacheManager"
+   	class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean" name="imageCacheManager">
+	 <property name="cacheManagerName" value="imageEditorCacheManager"/>
+      <property name="shared" value="true"/>
+	</bean>
 
    <bean id="ImageMetaDataCacheRegion"
    	class="org.springframework.cache.ehcache.EhCacheFactoryBean">
    	<property name="cacheManager">
-   		<ref local="cacheManager" />
+   		<ref local="imageEditorCacheManager" />
    	</property>
    	<property name="cacheName" 
    		value="com.percussion.pso.imageeditor.ImageMetaData" />
    	<property name="eternal" value="no" />
    	<property name="diskPersistent" value="yes" />
-   	<property name="maxElementsInMemory" value="200" /> 
+   	<property name="maxElementsInMemory" value="2000" /> 
    	<property name="overflowToDisk" value="yes" />
    	<property name="timeToIdle" value="3600" />
    	<property name="timeToLive" value="3600" />  
